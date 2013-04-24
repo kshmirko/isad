@@ -3,6 +3,7 @@ MANIFEST.in
 README.txt
 development.ini
 message-extraction.ini
+production.ini
 setup.cfg
 setup.py
 isad/__init__.py
