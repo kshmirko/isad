@@ -1,0 +1,24 @@
+{% extends "layout.jinja2" %}
+
+{% block navigation %}
+<ul id="navmenu">
+</ul>
+{% endblock %}
+
+{% block navigationleft %}
+{{ex}}
+<h2>Главное меню:</h2>
+<ul id="leftnavmenu">
+  {% for item in mainmenulist.keys() %}
+  <li><a href="{{mainmenulist[item]}}">{{item}}</a></li>
+  {% endfor %}
+</ul>
+{% endblock %}
+
+{% block content %}
+<h1>Обратная связь</h1>
+<h3>ИАПУ ДВО РАН</h3>
+Почтовый адрес - РФ, 690041, г. Владивосток, улица Радио, дом 5
+<h3>ТОИ ДВО РАН</h3>
+<h3>МГУ им. адм. Г.И. Невельского</h3>
+{% endblock %}

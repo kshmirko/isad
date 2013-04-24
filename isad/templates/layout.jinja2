@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{{project}}-ISAD</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+<link href="/static/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="container">
+  <div id="top">
+    <h1>Интерактивная Система Анализа Данных</h1>
+  </div>
+  <div id="navcontainer">
+    {% block navigation %}
+    {% endblock %}
+  </div>
+  <div id="leftnav">
+    {% block navigationleft %}
+    {% endblock %}
+  </div>
+  <div id="content">
+    {% block content %}
+    {% endblock %}
+  </div>
+  <div id="footer">
+    <p><a href="{{request.route_url('home')}}">homepage</a> | <a href="{{request.route_url('contacts')}}">contact</a> | &copy; 2013 kshmirko | Design by <a href="http://www.mitchinson.net"> www.mitchinson.net</a> | Licensed under a <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</a></p>
+  </div>
+</div>
+</body>
+</html>

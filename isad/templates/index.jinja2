@@ -1,0 +1,16 @@
+{% extends "layout.jinja2" %}
+
+{% block navigation %}
+<ul id="navmenu">
+</ul>
+{% endblock %}
+
+{% block navigationleft %}
+{{ex}}
+<h2>Главное меню:</h2>
+<ul id="leftnavmenu">
+  {% for item in mainmenulist.keys() %}
+  <li><a href="{{mainmenulist[item]}}">{{item}}</a></li>
+  {% endfor %}
+</ul>
+{% endblock %}
