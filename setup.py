@@ -31,6 +31,8 @@ setup(name='isad',
       entry_points = """\
       [paste.app_factory]
       main = isad:main
+      [console_scripts]
+      initialize_isad_db = isad.scripts.initializedb:main
       """,
       paster_plugins=['pyramid'],
       )

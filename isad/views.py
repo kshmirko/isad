@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from pyramid.i18n import TranslationStringFactory
 from pyramid.view import view_config
 
