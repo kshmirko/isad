@@ -3,7 +3,6 @@ MANIFEST.in
 README.txt
 development.ini
 message-extraction.ini
-production.ini
 setup.cfg
 setup.py
 isad/__init__.py
@@ -17,8 +16,6 @@ isad.egg-info/entry_points.txt
 isad.egg-info/not-zip-safe
 isad.egg-info/requires.txt
 isad.egg-info/top_level.txt
-isad/scripts/__init__.py
-isad/scripts/initializedb.py
 isad/static/favicon.ico
 isad/static/logo.png
 isad/static/mlpd3sign.css
