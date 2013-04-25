@@ -36,7 +36,9 @@ def main(global_config, **settings):
     #прописываем маршруты
     config.add_route('home','/')
     config.add_route('contacts','/contacts')
-    config.add_route('news','/news')
+    config.add_route('recentnews','/news')    
+    config.add_route('news','/news/{category}')
+
     config.add_route('login','/login')
     config.add_route('logiout','/logout')
     config.add_static_view('static', 'static', cache_max_age=3600)

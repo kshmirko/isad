@@ -1,14 +1,14 @@
-# Translations template for PROJECT.
-# Copyright (C) 2011 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+# Translations template for isad.
+# Copyright (C) 2013 ORGANIZATION
+# This file is distributed under the same license as the isad project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: isad 0.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2011-05-12 09:14-0330\n"
+"POT-Creation-Date: 2013-04-25 11:00+1100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,5 +17,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 0.9.6\n"
 
+#: isad/templates/layout.jinja2:4
+#, python-format
+msgid " %(project)s-ISAD "
+msgstr ""
+
+#: isad/templates/mytemplate.jinja2:37
 msgid "Hello!"
 msgstr ""
+
