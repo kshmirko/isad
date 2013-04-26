@@ -18,7 +18,7 @@ requires = [
     ]
 
 setup(name='isad',
-      version='0.0',
+      version='0.1',
       description='isad',
       long_description=README + '\n\n' + CHANGES,
       classifiers=[
